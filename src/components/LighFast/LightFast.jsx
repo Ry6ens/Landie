@@ -5,7 +5,7 @@ import img from 'img/undraw_mobile_login_ikmv.png';
 const LightFast = () => {
   return (
     <section className={s.section}>
-      <img className={s.imgLight} src={img} alt="" width="540" />
+      <img className={s.imgLight} src={img} alt="description" width="540" />
       <h2 className={s.title}>Light, Fast & Powerful</h2>
       <p className={s.text}>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
