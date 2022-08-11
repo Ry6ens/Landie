@@ -5,8 +5,8 @@ import path from 'img/Path.png';
 
 const Hero = () => {
   return (
-    <div className={sHero.hero}>
-      <img src={path} alt="path" width="1490" />
+    <section className={sHero.hero}>
+      {/* <img className={sHero.imgHERO} src={path} alt="path" width="1490" /> */}
       <h1 className={sHero.title}>
         Introduce Your Product Quickly & Effectively
       </h1>
@@ -19,7 +19,7 @@ const Hero = () => {
       </p>
       <Button title={'Purchase UI Kit'} className={sButton.buttonPurchase} />
       <Button title={'Learn More'} className={sButton.buttonLearn} />
-    </div>
+    </section>
   );
 };
 

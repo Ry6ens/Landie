@@ -1,0 +1,62 @@
+.section {
+  position: relative;
+  padding: 160px 0px;
+}
+
+.imgLight{
+  position: absolute;
+  top: 75px;
+  right: 0;
+}
+
+.title {
+  margin-bottom: 15px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.33;
+
+  color: #091133;
+}
+
+.text {
+  width: 540px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+
+  color: #6F7CB2;
+}
+
+.list {
+  margin-top: 80px;
+  display: flex;
+  gap: 30px
+}
+
+.item {
+  width: 240px;
+}
+
+.subtitle {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  color: #091133;
+}
+
+.subtitleText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+
+  color: #5D6970;
+}
