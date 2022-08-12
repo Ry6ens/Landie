@@ -1,5 +1,5 @@
-import Hero from '../Hero/Hero';
-import LightFast from '../LighFast/LightFast';
+import Hero from 'components/Hero/Hero';
+import LightFast from 'components/LighFast/LightFast';
 
 const Main = () => {
   return (
