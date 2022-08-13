@@ -1,7 +1,8 @@
 import Button from 'components/Button/Button';
-import sButton from 'components/Button/Button.module.css';
+import 'components/Button/Button.scss';
+
 import sHero from './Hero.module.css';
-import path from 'img/Path.png';
+// import path from 'img/Path.png';
 
 const Hero = () => {
   return (
@@ -17,8 +18,8 @@ const Hero = () => {
         ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
         quis enim.
       </p>
-      <Button title={'Purchase UI Kit'} className={sButton.buttonPurchase} />
-      <Button title={'Learn More'} className={sButton.buttonLearn} />
+      <Button title={'Purchase UI Kit'} />
+      <Button title={'Learn More'} className="btnLigh" />
     </section>
   );
 };

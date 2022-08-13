@@ -1,9 +1,9 @@
-import s from './Button.module.css';
+import './Button.scss';
 
-const Button = ({ title = '', type = 'button', className = '' }) => {
+const Button = ({ title = '', type = 'button', className = 'btn' }) => {
   return (
     <>
-      <button className={`${s.button} ${className}`} type={type}>
+      <button className={className} type={type}>
         {title}
       </button>
     </>

@@ -1,0 +1,16 @@
+.sectionList {
+  padding: 110px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overflow {
+  padding-left: 80px;
+}
+
+.text {
+  width: 450px;
+}
+
