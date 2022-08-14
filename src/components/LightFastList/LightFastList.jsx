@@ -1,16 +1,14 @@
 import '../LightFastList/LightFastList.scss';
 import 'components/Button/Button.scss';
 
-import Button from 'components/Button/Button';
-
-const LightFastList = ({ img, title, text }) => {
+const LightFastList = ({ img, title, text, content, width }) => {
   return (
-    <section className="sectionList">
-      <img src={img} alt="description" width="480" />
-      <div className="overflow">
-        <h2 className="title">{title}</h2>
-        <p className="text">{text}</p>
-        <Button title={'Purchase Now'} className="buttonPurchase" />
+    <section className="description__block">
+      <img src={img} alt="description" width={width} />
+      <div className="description__block-overflow">
+        <h2 className="description__block-title">{title}</h2>
+        <p className="description__block-text">{text}</p>
+        {content}
       </div>
     </section>
   );

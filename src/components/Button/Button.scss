@@ -1,81 +1,43 @@
-// .btn {
-//   width: 160px;
-//   height: 26px;
-
-//   font-style: normal;
-//   font-weight: 500;
-//   font-size: 12px;
-//   line-height: 1.5;
-
-//   text-align: center;
-//   color: #FFFFFF;
-
-//   background: #111B47;
-//   border-radius: 2px;
-//   border: none;
-
-//   cursor: pointer;
-// }
-
-// .btn-purch {
-//     composes: btn;
-//     width: 189px;
-//       height: 36px;
-
-//       font-style: normal;
-//       font-weight: 500;
-//       font-size: 16px;
-//       line-height: 1.6;
-
-//       margin-right: 30px;
-// }
-
-// .button {
-
-//   // &-purchase {
-//   //   width: 189px;
-//   //   height: 36px;
-
-//   //   font-style: normal;
-//   //   font-weight: 500;
-//   //   font-size: 16px;
-//   //   line-height: 1.6;
-
-//   //   margin-right: 30px;
-//   // }
-
-//   &-learn {
-//     composes: btn;
-//     width: 189px;
-//     height: 36px;
-
-//     font-style: normal;
-//     font-weight: 500;
-//     font-size: 16px;
-//     line-height: 1.6;
-
-//     color: #091133;
-
-//     background: #fff;
-//     border: 2px solid #091133;
-//   }
-// }
-
 .btn {
-  color: #fff;
-  background-color: #111B47;
-  padding: 5px 50px;
+  width: 190px;
+  height: 36px;
+
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  cursor: pointer;
 
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
+  text-align: center;
+  color: #FFFFFF;
+
+  background: #111B47;
+  border-radius: 2px;
+  border: none;
+
+  cursor: pointer;
 }
 
-.btnLigh {
-  composes: btn;
-  background-color: transparent;
+.btnLearn {
+  margin-left: 30px;
+  background: none;
   color: #091133;
+  border: 2px solid #091133;
+}
+
+.btnPurchaseNow {
+  height: 32px;
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: #FFFFFF;
+}
+
+.btnFooter {
+  width: 110px;
+  height: 20px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+
 }

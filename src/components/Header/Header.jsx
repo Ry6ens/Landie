@@ -1,13 +1,14 @@
 import Navigation from 'components/Navigation/Navigation';
 import Button from 'components/Button/Button';
-import s from './Header.module.css';
+import Logo from 'components/Logo/Logo';
+import './Header.scss';
 
 const Header = () => {
   return (
     <>
-      <header className={s.header}>
-        <Navigation />
-        <span className={s.title}>Landie</span>
+      <header className="header">
+        <Navigation className="nav__list" />
+        <Logo />
         <Button title={'Buy Now'} />
       </header>
     </>

@@ -1,0 +1,22 @@
+.nav__list {
+  display: flex;
+  gap: 60px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+  &-footer {
+    display: flex;
+    gap: 60px;
+    padding-top: 20px;
+    padding-bottom: 32px;
+  }
+}
+
+.nav__item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: #505F98;
+}

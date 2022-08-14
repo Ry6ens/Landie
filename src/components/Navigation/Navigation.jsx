@@ -1,14 +1,24 @@
-import s from './Navigation.module.css';
+import './Navigation.scss';
 
-const Navigation = () => {
+const Navigation = ({ className }) => {
   return (
-    <>
-      <ul className={s.nav__list}>
-        <li className={s.nav__item}>Home</li>
-        <li className={s.nav__item}>About</li>
-        <li className={s.nav__item}>Contact</li>
-      </ul>
-    </>
+    <ul className={className}>
+      <li>
+        <a className="nav__item" href="/">
+          Home
+        </a>
+      </li>
+      <li>
+        <a className="nav__item" href="/#">
+          About
+        </a>
+      </li>
+      <li>
+        <a className="nav__item" href="/#">
+          Contact
+        </a>
+      </li>
+    </ul>
   );
 };
 

@@ -1,17 +1,15 @@
 import Button from 'components/Button/Button';
 import 'components/Button/Button.scss';
 
-import sHero from './Hero.module.css';
-// import path from 'img/Path.png';
+import './Hero.scss';
 
 const Hero = () => {
   return (
-    <section className={sHero.hero}>
-      {/* <img className={sHero.imgHERO} src={path} alt="path" width="1490" /> */}
-      <h1 className={sHero.title}>
+    <section className="hero">
+      <h1 className="hero__title">
         Introduce Your Product Quickly & Effectively
       </h1>
-      <p className={sHero.text}>
+      <p className="hero__text">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
         dis parturient montes, nascetur ridiculus mus. Donec quam felis,
@@ -19,7 +17,7 @@ const Hero = () => {
         quis enim.
       </p>
       <Button title={'Purchase UI Kit'} />
-      <Button title={'Learn More'} className="btnLigh" />
+      <Button title={'Learn More'} className="btn btnLearn" />
     </section>
   );
 };
